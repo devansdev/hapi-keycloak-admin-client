@@ -1,0 +1,30 @@
+{
+    "name": "hapi-keycloak-admin-client",
+    "description": "Keycloak Admin Client Plugin",
+    "version": "1.0.0",
+    "repository": "https://github.com/devansdev/hapi-keycloak-admin-client",
+    "main": "./index.js",
+    "keywords": [
+      "keycloak",
+      "admin",
+      "client",
+      "hapi",
+      "plugin"
+    ],
+    "engines": {
+      "node": ">=8.0.0"
+    },
+    "dependencies": {
+      "keycloak-admin-client": "0.12.0"
+    },
+    "peerDependencies": {
+      "hapi": ">=17.x.x"
+    },
+    "devDependencies": {
+        "keycloak-admin-client": "0.12.0"
+    },
+    "scripts": {
+      "test": "test"
+    },
+    "license": "BSD-3-Clause"
+  }
